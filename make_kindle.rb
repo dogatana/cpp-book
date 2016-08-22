@@ -62,6 +62,7 @@ end
 
 # make navigation file
 nav = [
+  Kindle::NavElement.new('kinlde版について', 'readme-kindle.html'),
   Kindle::NavElement.new('README', 'readme.html'),
   Kindle::NavElement.new('LICENSE', 'license.html')
 ]
@@ -79,6 +80,7 @@ make_text('README', 'readme.html')
 file_items = []
 spine_ids = []
 %w(
+readme-kindle.html
 readme.html
 license.html
 index.html
